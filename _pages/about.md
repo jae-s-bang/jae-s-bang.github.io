@@ -15,7 +15,7 @@ My primary interests are optimization and topological data analysis.
 
 Research
 -----
-I am currently conducting independent research internships (remote) under:
+I am currently a student researcher advised by:
 - [Ernest K. Ryu (UCLA)](https://ernestryu.com/) — convex optimization theory and PEP
 - [Woojin Kim (KAIST)](https://wj-kim.com/) — topological data analysis
 
