@@ -25,4 +25,4 @@ On this site
 - **Talks**: talks and presentations.
 - **Teaching**: my lecture materials.
 - **Blog posts**: occasional notes.
-- **CV**: education, research, and teaching experience.
+- **CV**: a concise record of my academic activities.
