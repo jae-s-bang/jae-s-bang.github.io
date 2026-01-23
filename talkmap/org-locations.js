@@ -15,8 +15,8 @@ var addressPoints = [
     -122.272863
   ],
   [
-    "Talk 1 on Relevant Topic in Your Field<br />UC San Francisco, Department of Testing; San Francisco, CA, USA",
-    37.7879363,
-    -122.4075201
+    "AI and Mathematics: Extending the Notion of Sets (Alumni Talk)<br />Boin High School (Alumni Invitation); Seoul, Korea",
+    37.5666791,
+    126.9782914
   ]
 ];
