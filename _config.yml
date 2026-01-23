@@ -25,7 +25,7 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "SeungJae Bang"
-  pronouns         : "he/his" # example: "she/her"  
+  pronouns         : # example: "she/her"  
   bio              : "Undergraduate Student of Mathematical Sciences at Seoul National University"
   location         : "Gwanak-ro 1, Seoul, South Korea"
   employer         : "Seoul National University"
