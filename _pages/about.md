@@ -19,10 +19,3 @@ I am currently a student researcher advised by:
 - [Ernest K. Ryu (UCLA)](https://ernestryu.com/) — convex optimization theory and PEP
 - [Woojin Kim (KAIST)](https://wj-kim.com/) — topological data analysis
 
-
-On this site
------
-- **Talks**: talks and presentations.
-- **Teaching**: my lecture materials.
-- **Blog posts**: occasional notes.
-- **CV**: a concise record of my academic activities.
