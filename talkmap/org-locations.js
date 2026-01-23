@@ -10,13 +10,13 @@ var addressPoints = [
     -0.1277653
   ],
   [
-    "Tutorial 1 on Relevant Topic in Your Field<br />UC-Berkeley Institute for Testing Science; Berkeley, CA, USA",
-    37.8708393,
-    -122.272863
-  ],
-  [
     "AI and Mathematics: Extending the Notion of Sets (Alumni Talk)<br />Boin High School (Alumni Invitation); Seoul, Korea",
     37.5666791,
     126.9782914
+  ],
+  [
+    "Tutorial 1 on Relevant Topic in Your Field<br />UC-Berkeley Institute for Testing Science; Berkeley, CA, USA",
+    37.8708393,
+    -122.272863
   ]
 ];
