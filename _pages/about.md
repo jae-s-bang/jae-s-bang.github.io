@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "SeungJae Bang"
+title: "Jae Seung Bang"
 author_profile: true
 redirect_from: 
   - /about/
