@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I’m Seungjae Bang, an undergraduate student in the Department of Mathematical Sciences at Seoul National University, with a double major in the Interdisciplinary Major in Artificial Intelligence. Nowadays, I am exploring how mathematical ideas can clarify and structure our understanding of artificial intelligence.
+I’m Jae S. Bang, an undergraduate student in the Department of Mathematical Sciences at Seoul National University, with a double major in the Interdisciplinary Major in Artificial Intelligence. Nowadays, I am exploring how mathematical ideas can clarify and structure our understanding of artificial intelligence.
 
 Research interests
 -----
