@@ -36,7 +36,17 @@
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
     {% if post.date %}<p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>{% endif %}
-    {% if post.venue %}<p class="archive__item-excerpt" itemprop="description">{{post.type}}, {{ post.venue }},  {{post.location}} {% endif %}
+    {% if post.venue %}
+      <p class="archive__item-excerpt" itemprop="description">
+    {{ post.talk_type | default: post.type }}, <i>{{ post.venue }}</i>, {{ post.location }}
+      </p>
+    {% endif %}
+
+    {% if post.slidesurl %}
+      <p class="archive__item-excerpt" itemprop="description">
+      <a href="{{ post.slidesurl }}">Download Slides</a>
+      </p>
+    {% endif %}
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
   </article>
 </div>
