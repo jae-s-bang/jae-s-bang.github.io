@@ -1,0 +1,14 @@
+---
+title: "An Application of Mapper-analyzing trajectories of macrophages"
+collection: talks
+talk_type: "Research seminar talk"
+permalink: /talks/2026-02-23-ToGeDA
+venue: "KAIST"
+slidesurl: /files/02.23.26_ToGeDA_Mapper.pdf
+slidelabel: "Slides(PDF)" 
+date: 23.Feb.2026
+location: "Daejeon, Korea"
+---
+
+Macrophages play a central role in wound healing, transitioning from a pro-inflammatory (M1-like) state to an anti-inflammatory, tissue-repairing (M2-like) state. While recent work by Park et al. (2026) characterized this transition using PCA-based classification of 63 morpho-kinetic features extracted from zebrafish macrophage trajectories, their approach relies on summary statistics and linear dimensionality reduction, leaving higher-order feature interactions and the global topological structure of the data unexplored.
+In this work, we apply the Mapper algorithm from topological data analysis (TDA) to the same morpho-kinetic feature space. Our pipeline proceeds as follows: we first embed trajectories into a six-dimensional feature space and compute a cosine dissimilarity-based distance matrix. We then apply Ball Mapper to obtain a parameter-light graph summary of the point cloud, followed by multidimensional scaling (MDS) to produce a two-dimensional layout. Next, we learn explicit lens functions that express the MDS coordinates as interpretable formulas of the original biological features via linear, polynomial, and custom nonlinear regression. These learned lens functions are then used as two-dimensional filters for the full Mapper construction. We additionally compare this Ball Mapper–MDS pipeline against a direct-MDS approach to evaluate the smoothing effect of the graph-level aggregation. Our method produces Mapper graphs that separate M1-like and M2-like phenotypes into distinct topological regions, with transition-period trajectories interpolating between them, providing a complementary, topology-driven perspective on the macrophage phenotypic switch.
