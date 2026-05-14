@@ -1,0 +1,17 @@
+---
+title: "Calculus Practice 1 (F31.104L045)"
+collection: teaching
+type: "Teaching Assistant; Instructor for my section (delivered all lectures)"
+permalink: /teaching/2026-spring-calculus-practice-1/
+venue: "Seoul National University"
+date: 2026-03-01
+location: "Seoul, South Korea"
+slidesurl: /files/"Calculus1 Lecture Note Final.pdf"
+---
+
+Teaching Assistant for Calculus Practice 1 at Seoul National University (Spring 2026). I was the instructor for my section and delivered all lectures for my section.
+
+- Delivered all lectures and led in-class problem solving for the section, covering one-variable calculus and related topics.
+- Prepared lesson materials and problem sets aligned with the course syllabus.
+- Responded to student questions and provided feedback on coursework.
+- Assisted with grading and course administration as needed.
