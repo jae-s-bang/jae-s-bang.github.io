@@ -40,13 +40,6 @@
 
         {% if post.collection == 'teaching' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-
-          {% if post.slidesurl %}
-            <p class="archive__item-excerpt" itemprop="description">
-              <a href="{{ post.slidesurl }}">My Lecture Notes</a>
-            </p>
-          {% endif %}
-    
         {% elsif post.collection == 'publications' %}
           <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.date %}
@@ -82,7 +75,11 @@
     {% elsif post.slidesurl and post.bibtexurl %}
       <p><a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
     {% elsif post.slidesurl %}
-      <p><a href="{{ post.slidesurl }}">Download Slides</a></p>
+      {% if post.collection == 'teaching' %}
+        <p><a href="{{ post.slidesurl }}">My Lecture Notes</a></p>
+      {% else %}
+        <p><a href="{{ post.slidesurl }}">Download Slides</a></p>
+      {% endif %}
     {% elsif post.bibtexurl %}
       <p><a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
     {% endif %}
