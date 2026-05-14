@@ -6,6 +6,7 @@ permalink: /teaching/2025-spring-calculus-practice-1/
 venue: "Seoul National University"
 date: 2025-03-01
 location: "Seoul, South Korea"
+slidesurl: /files/"Calculus1 Lecture Note Final.pdf"
 ---
 
 Teaching Assistant for Calculus Practice 1 at Seoul National University (Spring 2025). I was the instructor for my section and delivered all lectures for my section.
