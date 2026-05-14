@@ -68,11 +68,11 @@ layout: default
         {% elsif page.citation %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
         {% elsif page.slidesurl %}
-         {% if post.collection == 'teaching' %}
-           <p><a href="{{ post.slidesurl }}">Lecture Notes</a></p>
+         {% if page.collection == 'teaching' %}
+           <p><a href="{{ page.slidesurl }}">Lecture Notes</a></p>
          {% else %}
-           <p><a href="{{ post.slidesurl }}">Download Slides</a></p>
-         {% endif %}
+           <p><a href="{{ page.slidesurl }}">Download Slides</a></p>
+        {% endif %}
         {% elsif page.bibtexurl %}
           <p style="font-size: smaller"><a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
         {% endif %}
